@@ -28,7 +28,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </ul>
     </div>
   );
-};
+}
 
 Profile.propTypes = {
   username: PropTypes.string,
