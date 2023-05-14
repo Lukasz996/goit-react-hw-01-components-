@@ -27,4 +27,3 @@ TransactionHistory.propTypes = {
   items: PropTypes.array,
 };
 
-
