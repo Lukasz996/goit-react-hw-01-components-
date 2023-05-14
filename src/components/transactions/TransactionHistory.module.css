@@ -1,26 +1,40 @@
-.transactionsHistory{
-    border-collapse: collapse;
-    width: 100%;
+.transactionsHistory {
+  width: 900px;
+  margin: 50px 0;
+  border-radius: 5px;
+  border: 1px solid rgba(219, 219, 219, 0.411);
+  border-radius: 7px;
+  overflow: hidden;
 }
 
-.thead{
-text-align: left;
-padding: 8px;
-border-bottom: 1px solid #000;
+.thead {
+  background-color: rgb(96, 190, 202);
+  color: white;
+  text-transform: capitalize;
 }
 
-.tType{
-
+.tType {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
 }
 
-.tAmount{
-
+.tAmount {
+  width: 300px;
+  text-align: center;
 }
 
-.tCurrency{
-
+.tCurrency {
+  width: 300px;
+  text-align: center;
 }
 
-.tableRow{
-background-color: #cfccccff;
+.tableRow {
+  height: 30px;
+  background-color: rgba(207, 204, 204, 0.356);
 }
+
+.tableRow:nth-child(even) {
+    background-color: lightgrey;
+  }
